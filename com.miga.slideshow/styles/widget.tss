@@ -1,0 +1,18 @@
+"#view_image1": {
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+	opacity:1
+}
+"#view_image2": {
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+	opacity:0
+}

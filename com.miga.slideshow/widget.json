@@ -1,0 +1,13 @@
+{
+	"id": "com.miga.slideshow",
+	"name": "Slideshow widget",
+	"description" : "Fullscreen background slideshow",
+	"author": "Michael Gangolf",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015",
+	"license":"CC BY-SA 4.0",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"slideshow,fullscreen,image",
+	"platforms":"android,ios"
+}
