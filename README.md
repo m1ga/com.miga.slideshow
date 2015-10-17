@@ -45,6 +45,16 @@ $.slideshow.pause();
 $.slideshow.resume();
 ```
 
+For big images it is useful to add this to your tiapp.xml:
+```
+<android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+        <application android:largeHeap="true"/>
+    </manifest>
+</android>
+```
+otherwise it won't blend the images on Android.
+
 ## Documentation
 ## Public methods
 | Method         | Description               |
