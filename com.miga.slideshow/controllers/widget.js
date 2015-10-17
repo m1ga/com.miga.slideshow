@@ -3,6 +3,7 @@ var time = 5000;
 var isRunning = false;
 var currentImage = 0;
 var interChange = null;
+var isFront = false;
 
 exports.init = function(obj){
     images = obj.images;
@@ -11,6 +12,7 @@ exports.init = function(obj){
 
 exports.start = function(){
     isRunning=true;
+    changeImage();
     interChange=setInterval(changeImage,time);
 };
 
@@ -33,7 +35,7 @@ function changeImage(e){
     var ani = Ti.UI.createAnimation({});
     ani.duration = 500;
 
-    if (currentImage%2===0){
+    if (isFront){
         $.view_image2.backgroundImage = images[currentImage];
         ani.opacity = 1;
         $.view_image2.animate(ani);
@@ -56,6 +58,6 @@ function changeImage(e){
             ani = null;
         });
     }
-
+    isFront = !isFront;
     currentImage++;
 }

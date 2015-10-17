@@ -3,6 +3,7 @@
 Fullscreen background slideshow with blending images
 
 ## Preview
+![Preview](slideshow.gif)
 
 ## Quick Start
 
